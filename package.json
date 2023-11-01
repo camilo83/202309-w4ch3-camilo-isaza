@@ -12,11 +12,11 @@
     "test": "jest --watchAll --coverage",
     "test:prod": "jest --watchAll --watchAll=false --coverage --passWithNoTests",
     "prepare": "husky install",
-    "sass": "sass scss:css -w --no-source-map",
+    "sass": "sass sass:css -w",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "keywords": [],
-  "author": "Sergi Casiano",
+  "author": "Camilo Isaza",
   "license": "ISC",
   "prettier": {
     "singleQuote": true
