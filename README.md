@@ -1,27 +1,18 @@
-# React + TypeScript + Vite
+# Week 4 - Challenge 3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## GoT DOM - React - Typescript
 
-Currently, two official plugins are available:
+Crea un proyecto nuevo en React - TypeScrypt
+Reproduce el challenge Week 3 - Challenge 1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Utiliza básicamente el mismo modelo de datos
+  a - La misma estructura de clases -> generamos los datos
+  b - Convierte las clases a un único interfaz y crea un end-point en JSON-server
+  (Puedes usar los datos del fichero data.ts)
 
-## Expanding the ESLint configuration
+- Utiliza la maqueta original (HTML/CSS) o los componentes que creaste
+  para realizar los componentes de React necesarios para que funcione la aplicación
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Testa todos los elementos
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Opcionalmente, llevamos la lógica a un Custom Hook
